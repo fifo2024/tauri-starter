@@ -1,0 +1,62 @@
+{
+    "$schema": "https://schema.tauri.app/config/2.0.0",
+    "productName": "tauri-starter",
+    "version": "0.1.6",
+    "identifier": "com.tauri-starter.app",
+    "build": {
+        "beforeDevCommand": "pnpm dev",
+        "devUrl": "http://localhost:1420",
+        "beforeBuildCommand": "pnpm build",
+        "frontendDist": "../dist"
+    },
+    "app": {
+        "windows": [
+            {
+                "label": "main",
+                "title": "tauri-starter",
+                "width": 800,
+                "height": 600,
+                "decorations": true,
+                "visible": false
+            },
+            {
+                "width": 800,
+                "height": 500,
+                "minHeight": 500,
+                "minWidth": 800,
+                "decorations": false,
+                "url": "splashscreen.html",
+                "label": "splashscreen",
+                "resizable": true,
+                "fullscreen": false,
+                "transparent": true,
+                "alwaysOnTop": false,
+                "center": true,
+                "visible": true
+            }
+        ],
+        "security": {
+            "csp": null
+        }
+    },
+    "bundle": {
+        "active": true,
+        "targets": "all",
+        "icon": [
+            "icons/32x32.png",
+            "icons/128x128.png",
+            "icons/128x128@2x.png",
+            "icons/icon.icns",
+            "icons/icon.ico"
+        ],
+        "createUpdaterArtifacts": true
+    },
+    "plugins": {
+        "updater": {
+            "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEMzQkY0NEUwNzI0MDg3M0UKUldRK2gwQnk0RVMvdzVuSWNjbUlLZ2pRRmR3TjhzUE5CVk9iUmgxbkVkTkRERy8wWWRvMTdFMVkK",
+            "endpoints": [
+                "https://bj.bcebos.com/v1/xbrain-xtest-public/app/tauri/latest.json"
+            ]
+        }
+    }
+}

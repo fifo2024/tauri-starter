@@ -1,0 +1,11 @@
+{
+    "version": "0.1.6",
+    "notes": "我是更新说明第一次测试更新",
+    "pub_date": "2025-10-27T10:33:50.626Z",
+    "platforms": {
+        "darwin-aarch64": {
+            "url": "https://bj.bcebos.com/v1/xbrain-xtest-public/app/tauri/tauri-starter.app.tar.gz",
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRK2gwQnk0RVMvdzI2UW5ybzNPUWZMcy9vbUFKOTRFbnVQaUJXYmw4a2ZrRUtuUW5memxMRlFrdUp0U2dDVlJvckEwdGtCcUdIRXl6NTFmUnhNQWdrRnRpb20ycU95THdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzYxNTQ2NjEwCWZpbGU6dGF1cmktc3RhcnRlci5hcHAudGFyLmd6CmdYeUVKT0ZKdUVPRGVPUlZoZG11b0FPZ1RQQXhQSGxvQTEyS1VKbUdHb1lxR3dBMGNER24rRXZMYis3N1NlcUJ5S2ZKNU5sZW5MMVpONW1EQUg3VEJBPT0K"
+        }
+    }
+}
